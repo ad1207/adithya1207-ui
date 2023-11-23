@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'adithya1207-ui'
+import { Button, Checkbox } from 'adithya1207-ui'
 import 'adithya1207-ui/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <Button>Hello</Button>
 }
 
 export default App

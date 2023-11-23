@@ -1,6 +1,7 @@
-import React from 'react'
-import styles from './styles.module.css'
+// Desc: Entry point for the library
+import Button from './ui/Button'
+import Checkbox from './ui/Checkbox'
+import Input from './ui/Input'
+import Radio from './ui/RadioButton'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+export { Button, Checkbox, Input, Radio }
